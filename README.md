@@ -1,16 +1,47 @@
-# flutter_application_1
+Nama : Abdul Rozzaq
+Nim : 14022300051
 
-A new Flutter project.
+# 🍅 Pomodoro Focus Timer App
 
-## Getting Started
+Aplikasi Pomodoro Timer lintas platform (Android/iOS/Web) yang dibuat menggunakan Flutter. Proyek ini didesain untuk membantu pengguna mengatur sesi fokus dan istirahat dengan antarmuka yang bersih dan fitur kustomisasi tema.
 
-This project is a starting point for a Flutter application.
+## ✨ Fitur Utama
 
-A few resources to get you started if this is your first Flutter project:
+* **⏱️ Pomodoro Timer Intuitif:** Timer utama untuk fase Fokus, Istirahat Pendek (Short Break), dan Istirahat Panjang (Long Break).
+* **🌙 Dukungan Tema (Dark/Light Mode):** Pengguna dapat beralih antara tema Terang dan Gelap untuk kenyamanan visual. Diimplementasikan menggunakan *State Management* **Provider**.
+* **⚙️ Pengaturan Waktu Kustom:** Opsi untuk mengatur durasi spesifik (menit) untuk setiap fase Pomodoro, Istirahat Pendek, dan Istirahat Panjang.
+* **🔔 Notifikasi Suara:** Memainkan suara notifikasi pada 5 detik terakhir sebelum transisi fase untuk memberi peringatan kepada pengguna.
+* **🔄 State Management Efisien:** Menggunakan *package* `provider` untuk manajemen *state* tema dan logika timer yang terpusat.
+* **📱 UI Responsif:** Tampilan yang bersih dan modern, dirancang untuk fokus pengguna.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Teknologi yang Digunakan
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* **Framework:** Flutter (Dart)
+* **State Management:** `provider`
+* **Audio/Notifikasi:** `audioplayers`
+
+## 🚀 Cara Menjalankan Proyek
+
+1.  **Clone Repositori:**
+    ```bash
+    git clone [Link Repositori Anda]
+    cd [Nama Folder Proyek]
+    ```
+
+2.  **Dapatkan Dependencies:**
+    ```bash
+    flutter pub get
+    ```
+
+3.  **Siapkan Assets:**
+    Pastikan Anda memiliki file notifikasi (`bell.mp3`) di folder `assets/sounds/`.
+
+4.  **Jalankan Aplikasi:**
+    Karena titik masuk aplikasi (`main()`) berada di `lib/dashboard.dart`, gunakan target flag:
+    ```bash
+    flutter run -t lib/dashboard.dart
+    ```
+
+## 🖼️ Tampilan Aplikasi
+![SS Aplikasi}(assets/picture/Gambar1.jpeg)
+![SS Aplikasi}(assets/picture/Gambar2.jpeg)
