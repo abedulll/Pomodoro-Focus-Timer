@@ -43,5 +43,5 @@ Aplikasi Pomodoro Timer lintas platform (Android/iOS/Web) yang dibuat menggunaka
     ```
 
 ## 🖼️ Tampilan Aplikasi
-![SS Aplikasi}(assets/picture/Gambar1.jpeg).
-![SS Aplikasi}(assets/picture/Gambar2.jpeg).
+![SS Aplikasi](assets/picture/Gambar1.jpeg).
+![SS Aplikasi](assets/picture/Gambar2.jpeg).
